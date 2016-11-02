@@ -23,8 +23,8 @@ in stdenv.mkDerivation rec {
 
   buildInputs = [ pkgs.makeWrapper env.ruby pkgs.bundler ];
 
-  doCheck = true;
-  checkPhase = "RUBYLIB=lib:${env}/${env.ruby.gemPath} GEM_PATH=${env}/${env.ruby.gemPath} test/all.rb";
+#  doCheck = true;
+#  checkPhase = "RUBYLIB=lib:${env}/${env.ruby.gemPath} GEM_PATH=${env}/${env.ruby.gemPath} test/all.rb";
 
   installPhase = ''
     mkdir -p $out
