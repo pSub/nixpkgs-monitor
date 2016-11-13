@@ -704,10 +704,10 @@ __END__
 <!DOCTYPE HTML>
 %html
   %head
-    <link rel="stylesheet" href="http://hydra.nixos.org/static/bootstrap/css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="http://hydra.nixos.org/static/css/hydra.css" type="text/css" />
-    <link rel="stylesheet" href="http://hydra.nixos.org/static/bootstrap/css/bootstrap-responsive.min.css" type="text/css" />
-    <link rel="stylesheet" href="/default.css" type="text/css" />
+    <link rel="stylesheet" href="https://hydra.nixos.org/static/bootstrap/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://hydra.nixos.org/static/css/hydra.css" type="text/css" />
+    <link rel="stylesheet" href="https://hydra.nixos.org/static/bootstrap/css/bootstrap-responsive.min.css" type="text/css" />
+    <link rel="stylesheet" href="default.css" type="text/css" />
     = rss_meta_link
     %title NixPkgs Monitor
     <meta charset="utf-8"/>
@@ -715,8 +715,8 @@ __END__
     .navbar.navbar-fixed-top
       .navbar-inner
         .container
-          %a.brand(href="http://monitor.nixos.org") 
-            <img src="http://hydra.nixos.org/logo" alt="Nix logo" class="logo"/> Nixpkgs monitor
+          %a.brand(href="http://monitor.nixos.org")
+            <img src="https://hydra.nixos.org/logo" alt="Nix logo" class="logo"/> Nixpkgs monitor
 
           .nav-collapse.collapse
             %ul.nav.pull-right
@@ -734,7 +734,7 @@ __END__
     .container
       = yield
 
-    <script type="text/javascript" src="/packagedetails.js"></script>
+    <script type="text/javascript" src="packagedetails.js"></script>
 
 
 @@dashboard
